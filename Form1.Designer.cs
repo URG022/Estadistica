@@ -36,6 +36,7 @@
             this.txtP = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -141,12 +142,22 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Número de ensayos (n)";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(208, 328);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "apoco si tilin";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(963, 473);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtP);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtK);
@@ -175,6 +186,7 @@
 		private System.Windows.Forms.TextBox txtP;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
-	}
+        private System.Windows.Forms.Label label5;
+    }
 }
 
